@@ -1,0 +1,14 @@
+[package]
+name = "nom-fields"
+version = "0.1.0"
+authors = ["reslario <simon.kunze2310@gmail.com>"]
+edition = "2018"
+description = "Provides a single function-like macro that removes some boilerplate from a common pattern when using nom."
+repository = "https://github.com/reslario/nom-fields"
+homepage = "https://github.com/reslario/nom-fields"
+readme = "README.md"
+keywords = ["nom", "macro"]
+license = "MIT OR Apache-2.0"
+documentation = "https://docs.rs/nom-fields/"
+
+[dependencies]
