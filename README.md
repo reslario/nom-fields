@@ -1,3 +1,7 @@
+[![](http://meritbadge.herokuapp.com/nom-fields)](https://crates.io/crates/nom-fields)
+[![Docs](https://docs.rs/nom-fields/badge.svg)](https://docs.rs/nom-fields/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
+
 # nom-fields
 This crate provides a single function-like macro that
 removes some boilerplate from a common pattern when using
