@@ -29,12 +29,12 @@
 /// The macro this crate provides. See the [top-level documentation](index.html) for details.
 #[macro_export]
 macro_rules! fields {
-    ($strct:ident: $($field:ident = $parser:expr),+) => {
+    ($($struct_path:ident)::+ : $($field:ident = $parser:expr),+) => {
         nom::combinator::map(
             nom::sequence::tuple((
                 $($parser),+
             )),
-            |($($field),+)| $strct {
+            |($($field),+)| $($struct_path)::+ {
                 $($field),+
             }
         )
