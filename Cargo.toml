@@ -1,7 +1,7 @@
 [package]
 name = "nom-fields"
 version = "0.1.1"
-authors = ["reslario <simon.kunze2310@gmail.com>"]
+authors = ["reslario <reslario.code@gmail.com>"]
 edition = "2018"
 description = "Provides a single function-like macro that removes some boilerplate from a common pattern when using nom."
 repository = "https://github.com/reslario/nom-fields"
